@@ -30,10 +30,11 @@
 }
 
 body {
-  font-family: "Josefin Sans", system-ui;
-  font-size: 1.125rem;
-  min-height: 100dvh;
   margin: auto 0;
   padding: 0;
   box-sizing: border-box;
+  min-height: 100dvh;
+  font-family: "Josefin Sans", system-ui;
 }
+
+
