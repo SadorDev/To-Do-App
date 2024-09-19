@@ -1,10 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Header from "./components/Header.jsx"
+import Background from "./components/Background.jsx"
 import "./styles/Base.module.css"
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Header />
+    <Background />
   </StrictMode>,
 )
