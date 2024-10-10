@@ -1,0 +1,10 @@
+.form {
+  display: flex;
+  justify-content: center;
+  bottom: 8rem;
+  position: relative;
+}
+
+.form label {
+  display: none;
+}
