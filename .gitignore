@@ -13,8 +13,8 @@ dist-ssr
 *.local
 
 #Files
-ToDoItem.jsx
-ToDoItem.module.css
+src/components/ToDoItem.jsx
+src/components/ToDoItem.module.css
 
 # Editor directories and files
 .vscode/*
