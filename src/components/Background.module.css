@@ -1,15 +1,15 @@
-.container {
+.background_container {
   display: flex;
   justify-content: center;
   height: 38vh;
 }
 
-.container.dark {
+.background_container.dark {
   background: url("../assets/images/bg-desktop-dark.jpg") no-repeat;
   background-size: cover;
 }
 
-.container:not(.dark) {
+.background_container:not(.dark) {
   background: url("../assets/images/bg-desktop-light.jpg") no-repeat;
   background-size: cover;
 }
@@ -22,7 +22,7 @@
   font-size: 1.3rem;
 }
 
-.container h1 {
+.background_container h1 {
   font-family: "Josefin Sans", system-ui;
   color: #fff;
   letter-spacing: 1.15rem;
@@ -36,12 +36,12 @@ button {
 
 /* Media Queries */
 @media only screen and (max-width: 425px) {
-  .container.dark{
+  .background_container.dark{
     background:url("../assets/images/bg-mobile-dark.jpg") no-repeat;
     background-size: cover;
   }
 
-  .container:not(.dark) {
+  .background_container:not(.dark) {
     background: url("../assets/images/bg-mobile-light.jpg") no-repeat;
     background-size: cover;
   }
