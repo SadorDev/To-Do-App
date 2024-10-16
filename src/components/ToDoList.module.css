@@ -18,7 +18,7 @@ ul {
 .list {
     width: 100%;
     list-style-type: none;
-    border: 1px solid gray;
+    border: 10px solid black;
     height: 30px;
 }
 
