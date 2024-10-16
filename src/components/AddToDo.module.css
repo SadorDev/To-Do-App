@@ -1,10 +1,23 @@
 .form {
   display: flex;
   justify-content: center;
-  bottom: 8rem;
+  bottom: 18vh;
   position: relative;
+}
+
+.form input {
+  height: 30px;
+  width: 400px;
+  border-radius: 2px;
 }
 
 .form label {
   display: none;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+  .form input {
+    width: 250px;
+  }
 }
