@@ -9,6 +9,7 @@ const Background = () => {
 
   useEffect(() => {
     document.body.style.backgroundColor = darkMode ? "hsl(235, 21%, 11%)" : "hsl(0, 0%, 98%)";
+    document.body.style.color = darkMode ? "hsl(235, 19%, 35%)" : "hsl(0, 100%, 0%)"
   }, [darkMode]);
 
   const handleDarkMode = () => {
